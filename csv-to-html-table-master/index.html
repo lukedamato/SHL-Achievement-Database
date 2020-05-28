@@ -64,9 +64,12 @@
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, fixedColumns:   {
-            leftColumns: 1,
-        }},
+        datatables_options: {
+          "paging": false,
+          fixedColumns: {
+                leftColumns: 2
+          }
+          },
         custom_formatting: [[4, format_link]]
       });
     </script>
